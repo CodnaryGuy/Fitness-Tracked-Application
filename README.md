@@ -17,8 +17,7 @@ This project demonstrates real-world backend development concepts including JWT 
 ✅ Clean Code using Lombok
 ✅ MySQL Database Integration
 
-# Technology        | Usage                             
-  ----------------- | --------------------------------- 
+# Technology        | Usage                              
   Spring Boot       | Backend Framework                 
   Spring Security   | Authentication & Authorization    
   JWT               | Secure Token-Based Authentication 
