@@ -2,6 +2,7 @@ package com.codna.fitness.service;
 
 import com.codna.fitness.dto.ActivityRequest;
 import com.codna.fitness.dto.ActivityResponse;
+import com.codna.fitness.exception.UserNotFoundException;
 import com.codna.fitness.model.Activity;
 import com.codna.fitness.model.User;
 import com.codna.fitness.repository.ActivityRepository;
@@ -9,7 +10,6 @@ import com.codna.fitness.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -23,7 +23,7 @@ public class ActivityService {
     public ActivityResponse trackActivity(ActivityRequest activityRequest) {
 
         User user = userRepository.findById(activityRequest.getUserId())
-                .orElseThrow(() -> new RuntimeException("Invalid user: " + activityRequest.getUserId()));
+                .orElseThrow(() -> new UserNotFoundException("Invalid user: " + activityRequest.getUserId()));
 
         Activity activity = Activity.builder()
                 .user(user)
