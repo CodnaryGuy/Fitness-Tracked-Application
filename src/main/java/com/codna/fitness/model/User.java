@@ -18,6 +18,7 @@ import java.util.List;
 @AllArgsConstructor
 @Entity
 @Builder
+@Table(name = "fitness_user")
 public class User {
 
     @Id
