@@ -17,17 +17,17 @@ This project demonstrates real-world backend development concepts including JWT 
 ✅ Clean Code using Lombok
 ✅ MySQL Database Integration
 
-# Technology        | Usage                              
-  Spring Boot       --> Backend Framework                 
-  Spring Security   --> Authentication & Authorization    
-  JWT               --> Secure Token-Based Authentication 
-  Spring Data JPA   --> ORM & Database Interaction        
-  Hibernate         --> ORM Implementation                
-  MySQL             --> Relational Database               
-  Lombok            --> Boilerplate Code Reduction        
-  Swagger/OpenAPI   --> API Documentation                 
-  Docker            --> Containerization                  
-  BCrypt            --> Password Encryption               
+# Technology          | Usage                              
+  * Spring Boot       --> Backend Framework                 
+  * Spring Security   --> Authentication & Authorization    
+  * JWT               --> Secure Token-Based Authentication
+  * Spring Data JPA   --> ORM & Database Interaction        
+  * Hibernate         --> ORM Implementation                
+  * MySQL             --> Relational Database
+  * Lombok            --> Boilerplate Code Reduction
+  * Swagger/OpenAPI   --> API Documentation
+  * Docker            --> Containerization
+  * BCrypt            --> Password Encryption               
 
 
   ## 🔐 Security Implementation ##
@@ -61,9 +61,9 @@ docker run -p 8080:8080 fitness-monolith
 
 # Run Container With DB Config 
 docker run -p 8080:8080 
--e DB_URL=jdbc:mysql://host.docker.internal:3306/<DB_Name> 
--e DB_USER=<username> 
--e DB_PWD=<password> fitness-monolith
+-e DB_URL=jdbc:mysql://host.docker.internal:3306/DB_Name 
+-e DB_USER=username 
+-e DB_PWD=password fitness-monolith
 
 # ☁️ Cloud Deployment
 
