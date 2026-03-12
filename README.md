@@ -4,7 +4,7 @@ This project demonstrates real-world backend development concepts including JWT 
 
 # Features
  User Registration & Login
-* ✅ JWT Authentication & Authorization
+✅ JWT Authentication & Authorization
 ✅ Role-Based Access Control (RBAC)
 ✅ Secure REST APIs
 ✅ Activity Tracking System
