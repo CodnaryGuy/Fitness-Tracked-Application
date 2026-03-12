@@ -3,8 +3,8 @@ A fully functional Fitness Tracker REST API built using Spring Boot, implementin
 This project demonstrates real-world backend development concepts including JWT authentication, Spring Security, RBAC, JPA, Docker, and Cloud Deployment.
 
 # Features
-✅ User Registration & Login
-✅ JWT Authentication & Authorization
+ User Registration & Login
+* ✅ JWT Authentication & Authorization
 ✅ Role-Based Access Control (RBAC)
 ✅ Secure REST APIs
 ✅ Activity Tracking System
@@ -17,7 +17,7 @@ This project demonstrates real-world backend development concepts including JWT 
 ✅ Clean Code using Lombok
 ✅ MySQL Database Integration
 
-# Technology          | Usage                              
+# Technology                                       
   * Spring Boot       --> Backend Framework                 
   * Spring Security   --> Authentication & Authorization    
   * JWT               --> Secure Token-Based Authentication
